@@ -34,14 +34,25 @@ h1 {
   border-radius: 50%;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
-.top {
-  padding-top: 10px;
-  padding-bottom: 30px;
+p {
+  margin-bottom: 40px;
+}
+.btn {
+  text-decoration: none;
+  background-color:#bc8f8f;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn:hover {
+  color: white;
+  background-color: #ac8383;
+  text-decoration: none;
 }
 .card {
   background-color: #f7f7f7;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
   margin: 20px auto;
@@ -53,9 +64,9 @@ h2 {
   font-size: 18px;
   letter-spacing: 2px;
 }
-.list_inline >li {
+.list-inline >li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 ul {
   list-style: none;
